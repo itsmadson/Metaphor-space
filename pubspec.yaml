@@ -1,0 +1,35 @@
+name: metaphorspace
+description: "For who loves story"
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.2 <4.0.0"
+
+dependencies:
+  parse_server_sdk_flutter: ^7.0.1
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  shared_preferences: any
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.13.1"
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "lib/assets/icon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  remove_alpha_ios: true
+
+flutter:
+  fonts:
+    - family: Vazirmatn
+      fonts:
+        - asset: fonts/Vazirmatn-Regular.ttf
+  uses-material-design: true
