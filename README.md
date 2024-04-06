@@ -16,7 +16,7 @@ Metaphor Space is a mobile application developed using Flutter. It allows users 
 - Dark mode support for comfortable reading at night
 
 ## Screenshots
-![Uploading image.png…]()
+![image](https://github.com/itsmadson/Metaphor-space/assets/67187216/02f31d93-6a31-411f-98ea-b0f319c3df58)
 
 
 ## Installation
