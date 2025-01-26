@@ -3,7 +3,7 @@
 # dependencies
 node_modules/
 #file
-screens/chatScreen.js
+screens/ChatScreen.js
 # Expo
 .expo/
 dist/
