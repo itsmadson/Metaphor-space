@@ -19,7 +19,7 @@ const ChatScreen = ({ route, navigation }) => {
   const [isLoading, setIsLoading] = useState(false);
   const { colors, toggleTheme } = useContext(ThemeContext);
 
-  const GEMINI_API_KEY = 'AIzaSyBDLTWuBIDgC2c7_31p0xNl5KbtOhS-n8k';
+  const GEMINI_API_KEY = 'api';
   const GEMINI_API_ENDPOINT = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent';
 
   const askGemini = async (userMessage) => {
